@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\win">
+      <UniqueIdentifier>{735adb1d-874a-44b1-b494-6fd191821a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\win">
+      <UniqueIdentifier>{5db0673c-d570-4dca-8cdc-7ace7edddcc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\overlay">
+      <UniqueIdentifier>{e1ab3bbb-c3a0-434f-97f8-e6648523c3f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\overlay">
+      <UniqueIdentifier>{25c9d803-6f9f-4f1d-a523-3e383d583cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\net">
+      <UniqueIdentifier>{34e772f6-9955-4799-8b57-6688aee47de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\net">
+      <UniqueIdentifier>{35b85865-9974-4b77-a035-d16c439aec29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\win\Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChatMessage.h">
+      <Filter>Файлы заголовков\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatWindow.h">
+      <Filter>Файлы заголовков\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="SetupWindow.h">
+      <Filter>Файлы заголовков\win</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalNetwork.h">
+      <Filter>Файлы заголовков\net</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkEngine.h">
+      <Filter>Файлы заголовков\net</Filter>
+    </ClInclude>
+    <ClInclude Include="CertHelper.h">
+      <Filter>Файлы заголовков\net</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы\win</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatWindow.cpp">
+      <Filter>Исходные файлы\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="SetupWindow.cpp">
+      <Filter>Исходные файлы\win</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalNetwork.cpp">
+      <Filter>Исходные файлы\net</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkEngine.cpp">
+      <Filter>Исходные файлы\net</Filter>
+    </ClCompile>
+    <ClCompile Include="CertHelper.cpp">
+      <Filter>Исходные файлы\net</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

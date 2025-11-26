@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Rbx3rdPartyChat/Rbx3rdPartyChat.vcxproj" Id="e24ddbfb-8cd2-45ac-bed9-3b37913a7132" />
+</Solution>

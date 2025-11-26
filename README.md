@@ -14,6 +14,6 @@ Unofficial chat replacement of roblox's chat, because the official one will requ
 11. Run the chat application, Zerotier client must be running.
 12. Enter the IPs. Ask peple to do the same  steps if you need more people. Only change the ports if you know what are you doing.
 # How does it work?
-It makes a WebSocket over TLS (wss://) connection between you and your friends, p2p-alike. You may need to adjust your firewall settings to make it work properly. But, it wouldn't let you just "connect to each other",you need to be connected by LAN. So you use Zerotier to do all the routing.
+It makes a WebSocket over TLS (wss://) connection between you and your friends, p2p-alike. You may need to adjust your firewall settings to make it work properly. But, it wouldn't let you just "connect to each other",you need to be connected by something like LAN, because most ISPs do not give "your own" IPs, instead, they give "their own". You would also probably need port forwarding.So you use Zerotier to do all the routing, because it makes a LAN-like virtual network.
 # License
 The project is licensed under MIT license.

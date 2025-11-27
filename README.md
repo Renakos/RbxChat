@@ -4,10 +4,10 @@ Unofficial chat replacement of Roblox's chat, because the official one will requ
 # Project Environment:
 1. DirectX11/D2D;
 2. Visual Studio 2026;
-3. Windows 10/11
-4. Boost.Asio
-5. Boost.Beast
-6. vcpkg
+3. Windows 10/11;
+4. Boost.Asio;
+5. Boost.Beast;
+6. vcpkg;
 
 
 # Usage

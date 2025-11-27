@@ -27,7 +27,7 @@ Unofficial chat replacement of Roblox's chat, because the official one will requ
 12. Start the chat application. ZeroTier must be running.
 13. Input the Managed IPs of your friends. NEVER CHANGE PORTS UNLESS YOU KNOW WHAT YOU ARE DOING.
 14. All participants press the **synchronize** button.
-15. After synchronization, the chat window will be opened. Wait a few seconds — it is ready to work.
+15. After synchronization, the chat window will be opened. Wait a few seconds and it is ready to work.
 16. The application runs topmost, with elevated privileges, so it acts like an overlay.
 
 # How does it work?

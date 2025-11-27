@@ -22,7 +22,7 @@ Unofficial chat replacement of Roblox's chat, because the official one will requ
 6. Copy the **Network ID** shown in the network panel.
 7. Click the ZeroTier tray icon -> **Join New Network** -> paste the Network ID.
 8. Refresh the network panel - your device should appear.
-9. Authorize the device (enable the **Auth** checkbox).
+9. Authorize the device (press the Synchronize button).
 10. Ask your friends to repeat the same steps using **your** Network ID.
 11. After they join, exchange your **Managed IP** addresses.
 12. Start the chat application (ZeroTier must be running).

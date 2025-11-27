@@ -2,13 +2,13 @@
 Unofficial chat replacement of Roblox's chat, because the official one will require age verification and will block chat access to all the unverified users, and to verify it, you have to do an AI-based selfie check. No one will want to show their face to a company that is not even related to Roblox but also had data breaches before. The AI is badly trained, and everyone's faces are different depending on ethnic groups, nations, etc., so an adult **MAY** be recognized as a minor. There would not be a need for a 3rd party chat to exist. RbxChat is very lightweight, faster than any other way to communicate besides physically talking. It ensures that your messages are private and only shared by you and your friends/participants. All messages are only sent to each other.
 
 # Environment:
-DirectX11/D2D;
-Visual Studio 2026;
-Windows 10/11
-Boost.Asio
-Boost.Beast
-OpenSSL
-vcpkg
+1. DirectX11/D2D;
+2. Visual Studio 2026;
+3. Windows 10/11
+4. Boost.Asio
+5. Boost.Beast
+6. OpenSSL
+7. vcpkg
 
 
 # Usage

@@ -11,25 +11,24 @@ Unofficial chat replacement of Roblox's chat, because the official one will requ
 
 
 # Usage
-
 1. Download ZeroTier: https://www.zerotier.com/download
-2. Install and launch ZeroTier. Keep it running in the background.
+2. Install and start ZeroTier. Let it stay running in the background.
 3. Open the control panel:
-   * https://central.zerotier.com
-   * or, if your account was created before November 5, 2025: https://my.zerotier.com/login
-4. Log in or create an account.
-5. Create a new network or open an existing one.
-6. Copy the **Network ID** shown in the network panel.
-7. Click the ZeroTier tray icon -> **Join New Network** -> paste the Network ID.
-8. Refresh the network panel - your device should appear.
-9. Authorize the device (press the Synchronize button).
-10. Ask your friends to repeat the same steps using **your** Network ID.
+* https://central.zerotier.com
+* or, if your account was created before November 5, 2025: https://my.zerotier.com/login
+4. Sign in or create an account.
+5. Create a new network, or open an existing one.
+6. Copy the **Network ID** displayed in the network panel.
+7. Click the ZeroTier tray icon → **Join New Network** → paste the Network ID.
+8. Refresh the network panel, your device should appear
+9. Allow the device (push the Synchronize button).
+10. Have your friends repeat these same steps, using **your** Network ID.
 11. After they join, exchange your **Managed IP** addresses.
-12. Start the chat application (ZeroTier must be running).
-13. Enter the Managed IPs of your friends. Do not change ports unless you know what you're doing.
-14. All participants press the **“synchronize”** button.
-15. After synchronization, the chat window will open. Wait a few seconds — the chat is ready to use.
-16. The application runs topmost and with elevated privileges, so it behaves like an overlay.
+12. Start the chat application. ZeroTier must be running.
+13. Input the Managed IPs of your friends. NEVER CHANGE PORTS UNLESS YOU KNOW WHAT YOU ARE DOING.
+14. All participants press the **synchronize** button.
+15. After synchronization, the chat window will be opened. Wait a few seconds — it is ready to work.
+16. The application runs topmost, with elevated privileges, so it acts like an overlay.
 
 # How does it work?
 The application establishes a secure WebSocket connection (wss://) between participants. Direct P2P connections usually don’t work because most ISPs don’t provide unique public IP addresses, which makes port forwarding or special routing necessary.

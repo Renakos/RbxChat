@@ -15,7 +15,7 @@ Unofficial chat replacement of Roblox's chat, because the official one will requ
 2. Install and start ZeroTier. Let it stay running in the background.
 3. Open the control panel:
 * https://central.zerotier.com
-* or, if your account was created before November 5, 2025: https://my.zerotier.com/login
+* if your account was created before November 5, 2025: https://my.zerotier.com/login
 4. Sign in or create an account.
 5. Create a new network, or open an existing one.
 6. Copy the **Network ID** displayed in the network panel.

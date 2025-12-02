@@ -2,7 +2,7 @@
 Unofficial chat replacement of Roblox's chat, because the official one will require age verification and will block chat access to all the unverified users, and to verify it, you have to do an AI-based selfie check. No one will want to show their face to a company that is not even related to Roblox but also had data breaches before. The AI is badly trained, and everyone's faces are different depending on ethnic groups, nations, etc., so an adult **MAY** be recognized as a minor. There would not be a need for a 3rd party chat to exist. RbxChat is very lightweight, faster than any other way to communicate besides physically talking. It ensures that your messages are private and only shared by you and your friends/participants. All messages are only sent to each other. The application runs topmost, with elevated privileges, so it acts like an overlay. Windows-only
 
 # Safety notice
-While the app works on Roblox and is NOT detected by Hyperion, VAC and FACEIT,(Nov 28, 2025) I can not guarantee safety with other anticheats like eac, vanguard. 
+While the app works on Roblox and is NOT detected by Hyperion, VAC and FACEIT,(Dec 2, 2025) I can not guarantee safety with other anticheats like EAC, Vanguard. 
 
 # Project Environment:
 1. DirectX11/D2D;
